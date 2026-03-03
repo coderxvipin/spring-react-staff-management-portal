@@ -1,0 +1,18 @@
+# Ignore the heavy React dependencies
+ems-frontend/node_modules/
+ems-frontend/build/
+ems-frontend/.env
+
+# Ignore Spring Boot build files and IDE settings
+ems-backend/target/
+ems-backend/.idea/
+ems-backend/*.class
+
+#General IDE ignores (root level)
+.idea/
+.vscode/
+*.log
+
+# General OS files
+.DS_Store
+Thumbs.db
