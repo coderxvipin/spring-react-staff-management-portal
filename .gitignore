@@ -1,20 +1,53 @@
-# Ignore the heavy React dependencies
+# ========================
+# React Frontend
+# ========================
 ems-frontend/node_modules/
 ems-frontend/build/
 ems-frontend/dist/
 ems-frontend/.env
+ems-frontend/.env.local
+ems-frontend/.env.production
 
-# Ignore Spring Boot build files and IDE settings
+# ========================
+# Spring Boot Backend
+# ========================
 ems-backend/target/
+ems-backend/*.class
 ems-backend/.idea/
-#ems-backend/*.class #target folder already there
-ems-frontend/build/
+ems-backend/*.iws
+ems-backend/*.iml
+ems-backend/*.ipr
 
-#General IDE ignores (root level)
+# ========================
+# Maven
+# ========================
+ems-backend/.mvn/
+!ems-backend/.mvn/wrapper/maven-wrapper.jar
+ems-backend/mvnw
+ems-backend/mvnw.cmd
+
+# ========================
+# IDE - IntelliJ
+# ========================
 .idea/
-.vscode/
-*.log
+*.iml
+*.iws
+*.ipr
 
-# General OS files
+# ========================
+# IDE - VSCode
+# ========================
+.vscode/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# OS Files
+# ========================
 .DS_Store
 Thumbs.db
+desktop.ini
