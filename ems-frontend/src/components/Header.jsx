@@ -6,7 +6,7 @@ const HeaderComponent = () => {
         <header>
             <nav className = "header-navbar">
                 <a  className = "navbar-brand" href = "/" > 
-                  &nbsp; Employee Management System
+                  &nbsp; Staff Management Portal
                 </a>
             </nav>
         </header>

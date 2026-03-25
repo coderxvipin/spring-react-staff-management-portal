@@ -64,7 +64,7 @@
 	
 
 	<build>
-	<finalName>employee_management_system</finalName>
+	<finalName>ems</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

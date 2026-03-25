@@ -4,7 +4,7 @@ const FooterComponent = () => {
   return (
     <div>
         <footer className='footer'> {/*This is a footer HTML element*/}
-            <span>© 2026 W Programming. All Rights Reserved.</span>
+            <span>Copyright © 2026 coderxvipin. All Rights Reserved.</span>
             
         </footer>
       

@@ -1,11 +1,14 @@
 # Ignore the heavy React dependencies
 ems-frontend/node_modules/
 ems-frontend/build/
+ems-frontend/dist/
 ems-frontend/.env
 
 # Ignore Spring Boot build files and IDE settings
+ems-backend/target/
 ems-backend/.idea/
-ems-backend/*.class
+#ems-backend/*.class #target folder already there
+ems-frontend/build/
 
 #General IDE ignores (root level)
 .idea/

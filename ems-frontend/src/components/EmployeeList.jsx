@@ -13,13 +13,14 @@ function EmployeeList (){
     getAllEmployees();
   }, [])
 
-  function getAllEmployees(){
-    listEmployees().then((response) =>{ 
-        setEmployees(response.data);
-    }).catch(error => {
-      console.error(error);
-    })
-  }
+function getAllEmployees(){
+  listEmployees().then((response) =>{ 
+    console.log(response.data); // 👈 ADD THIS
+    setEmployees(response.data);
+  }).catch(error => {
+    console.error(error);
+  })
+}
 
   function addNewEmployee(){
     navigator('/add-employee')

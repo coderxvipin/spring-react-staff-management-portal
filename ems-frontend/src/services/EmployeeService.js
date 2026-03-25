@@ -2,7 +2,8 @@
 
 import axios from "axios"; //import axios object from axios library in order to call it's APIs.
 
-const REST_API_BASE_URL = "http://localhost:8080/api/employees"
+const REST_API_BASE_URL = "/api/employees";   //For deployed server
+//const REST_API_BASE_URL = "http://localhost:8080/api/employees"; //For localhost
 
 export function listEmployees(){
     return axios.get(REST_API_BASE_URL);
